@@ -80,3 +80,5 @@ Para iniciar a aplicação, siga os passos abaixo:
 
 ## Conclusão
 Este README fornece uma visão geral do projeto, incluindo requisitos funcionais e não funcionais, dependências, análise de risco e instruções de inicialização. Para mais informações, consulte a documentação adicional ou entre em contato com a equipe de desenvolvimento.
+
+sadfsdgfasdfsdgffgsddbfdfgadfaadf
