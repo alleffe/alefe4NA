@@ -8,14 +8,11 @@ export class UserService {
     this.userRepository = new UserRepository();
   }
 
-  async createUser(name: string, email: string) {
+  async createUser(name: string, email: string, passwordHash: string) {
     if (!isValidEmail(email)) {
       throw new Error("Email inválido");
     }
-    return await this.userRepository.addUser(name, email);
+    return await this.userRepository.addUser(name, email,passwordHash );
   }
 
-  async listUsers() {
-    return await this.userRepository.getAllUsers();
-  }
 }
